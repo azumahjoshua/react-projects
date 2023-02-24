@@ -3,7 +3,6 @@ import React from "react";
 const List = ({ people }) => {
 	return (
 		<>
-			<ul></ul>
 			{people.map((person) => {
 				const { id, name, age, image } = person;
 				return (
